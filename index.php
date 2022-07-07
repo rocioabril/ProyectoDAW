@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <style>
+        aside{
+            border-left: 1px solid #ccc;
+        }
+        header{
+            height: 150px;
+            border-bottom: 1px solid #ccc;
+           
+        }
+        main{
+            min-height: 400px;
+            /*background-color: #d0d0d0;*/
+        }
+        footer{
+            height: 150px;
+            border-top: 1px solid #ccc;
+            
+        }
+
+        body{
+            margin: 20px 0;
+            border: 1px solid #ccc;
+        }
+        
+        .card{
+            border:0;
+            background: #fff;
+            border-radius: 2px;
+            width: 300px;
+            width: 180px;
+            height: 280px;
+            margin: 20px 0;
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        }
+
+        .banner{
+            background-color: #fff;
+            border: 0;
+            margin: 20px 0;
+            border-radius: 2px;
+
+            min-height: 200px;
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        }
+
+        .vendidos_contenedor{
+            border: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .mas_vendidos{
+           border: 0px;
+        }
+       
+        .logo{
+            width: 150px;
+            margin: 35px 0;
+        }
+
+        .menu_superior{
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 150px;
+            list-style: none;
+        }
+       .menu_sup_item{
+           border: 0;
+           width: 150px;
+           text-align: center;
+           font-size: 20px;
+       }
+       .menu_sup_item:hover{
+           border-bottom: 2px solid #000;
+       }
+
+       .menu_sup_item a{
+           text-decoration: none;
+           color: #000;
+       }
+
+       .menu_sup_item:hover a{
+           font-weight: bold;
+       }
+    
+
+       .login{
+           text-align: center;
+           font-size: 90px;
+          cursor: pointer;
+       }
+       .redes_container{
+           display: flex;
+           font-size: 40px;
+           justify-content: space-around;
+           align-items: center;
+           border:0;
+       }
+       
+
+    </style>
+
+<body class="container">
+    <?php include 'header.php';?>
+
+    <main class="row">
+
+        <div class="col-9"><!-- Parte central-->
+            <section class="row mas_vendidos">
+                <div class="col-12">
+                    <h2>Los más vendidos</h2>
+
+                    <div class="vendidos_contenedor">
+                        <div class="card">
+                            Producto 1
+                        </div>
+                        <div class="card">
+                            Producto 1
+                        </div>
+                        <div class="card">
+                            Producto 1
+                        </div>
+                        <div class="card">
+                            Producto 1
+                        </div>
+          
+                    </div>
+                </div>
+            </section>
+
+            <section class="row novedades">
+                <div class="col-12">
+                   <h2>Novedades</h2>
+                   <div class="vendidos_contenedor">
+                    <div class="card">
+                        Producto 1
+                    </div>
+                    <div class="card">
+                        Producto 1
+                    </div>
+                    <div class="card">
+                        Producto 1
+                    </div>
+                    <div class="card">
+                        Producto 1
+                    </div>
+      
+                </div>
+                </div>
+            </section>
+        </div><!--Fin de la parte central-->
+    </main>
+
+    <?php include 'footer.php';?>
+</body>
+
+</html>
