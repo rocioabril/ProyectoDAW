@@ -1,7 +1,5 @@
 <!--Funciones usadas en php-->
-<?php
-    include("funciones.php");
-?>
+<?php include("funciones.php")?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -6,7 +6,7 @@
 
             <div class="vendidos_contenedor">
                 
-                <?php pintaMasVendidos(4);?>
+                <?php pintar(4, "pintaMasVendidos");?>
 
             </div>
         </div>
@@ -17,7 +17,7 @@
             <h2>Novedades</h2>
             <div class="vendidos_contenedor">
                
-            <?php pintaNovedades(4);?>
+            <?php pintar(4, "cadsMasVendidos");?>
 
             </div>
         </div>
