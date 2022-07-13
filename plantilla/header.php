@@ -8,13 +8,13 @@
                 <a href="index.php">Inicio</a>
             </li>
             <li class="menu_sup_item">
-                <a href="">Tienda</a>
+                <a href="">Series</a>
             </li>
             <li class="menu_sup_item">
-                <a href="">Nosotros</a>
+                <a href="">Peliculas</a>
             </li>
             <li class="menu_sup_item">
-                <a href="">Contacto</a>
+                <a href="">Opiniones</a>
             </li>
             <li class="menu_sup_item">
                 <?php

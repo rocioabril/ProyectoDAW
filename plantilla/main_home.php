@@ -5,7 +5,7 @@
 
             <div class="vendidos_contenedor">
                 <!-- funcion grande y el archivo lo puedo ver en la carpeta funciones -->
-                <?php pintar(3, "card_mas_vendidos.php"); ?>
+                <?php pintar(4, "card_mas_vendidos.php"); ?>
 
             </div>
         </div>
@@ -17,7 +17,7 @@
 
             <div class="vendidos_contenedor">
                 <!-- funcion grande y el archivo lo puedo ver en la carpeta funciones -->
-                <?php pintar(3, "card_novedades.php");?>
+                <?php pintar(4, "card_novedades.php");?>
 
             </div>
         </div>

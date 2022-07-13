@@ -43,12 +43,6 @@
     <?php include("main_home.php");?>
        <!--Fin de la parte central-->
 
-
-
-        <!-- Parte lateral (aside)-->
-        <?php include("aside.php");?>
-       <!-- Fin de la parte lateral (aside)-->
-
     </main>
 
     <!-- Inicio del pie -->
