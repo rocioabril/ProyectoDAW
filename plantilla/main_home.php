@@ -1,4 +1,4 @@
-<div class="col-9">
+<div class="col-12">
     <section class="row mas_vendidos">
         <div class="col-12">
             <h2>Los más vendidos</h2>

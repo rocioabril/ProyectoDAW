@@ -11,9 +11,6 @@
                 <a href="">Series</a>
             </li>
             <li class="menu_sup_item">
-                <a href="">Peliculas</a>
-            </li>
-            <li class="menu_sup_item">
                 <a href="">Opiniones</a>
             </li>
             <li class="menu_sup_item">
@@ -22,8 +19,13 @@
                 echo "<a href='logout.php'>logout</a>";
              }
              else{
-                echo "<a href='login.php'>login</a>";
-             }
+                ?>
+                <!-- Button trigger modal -->
+                <a href="login.php"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Iniciar Sesión
+                </a>
+               <!-- echo "<a href='login.php'>login</a>";-->
+             <?php }
              ?>
             </li>
         </ul>
@@ -37,3 +39,5 @@
         ?>
     </div>
 </header>
+
+<?php include("login.php"); ?>
