@@ -10,15 +10,16 @@
       <div class="col-9">
     <section class="formulario_login">
         <form action="" method="POST">
-            <div class="form-group">
+            <div class="form-group m-3">
                 <label for="user">Nombre de usuario</label>
                 <input type="test" class="form-control" id="user" name="user"  placeholder="Tu nombre de usuario">
-                <small id="userHelp" class="form-text text-muted">Introduce tu nombre de usuario</small>
+                <small id="userHelp" class="form-text text-muted"></small>
             </div>
-            <div class="form-group">
+            <div class="form-group m-3">
                 <label for="password">Contraseña</label>
                 <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña">
             </div>
+
             
         </form>
         <?php
@@ -45,15 +46,22 @@
             }
         }
         ?>
+      <div class="d-flex m-3 justify-content-stretch">
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </div>
     </section>
 </div>
       </div>
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="modal-footer d-flex justify-content-center">
+        ¿Aun no tienes cuenta?
+        <a href="registrarse.php"  data-bs-toggle="modal" data-bs-target="#signupModal">
+                Registrate
+        </a>
+
        
       </div>
     </div>
   </div>
 </div>
 <!-- fin del modal -->
-
+<?php include("registrarse.php"); ?>

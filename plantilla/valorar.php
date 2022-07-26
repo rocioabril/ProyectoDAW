@@ -1,17 +1,27 @@
 
 <!--Estilo valoración-->
 <style>
-    #form {
+#form {
+    display: block;
     width: 250px;
     margin: 0 auto;
     height: 50px;
+    border: 1px solid #d9d9d9;
   }
   
   #form p {
+    display: block;
     text-align: center;
+    font-size: 20px;
   }
   
   #form label {
+    font-size: 20px;
+  }
+
+  .title-valorar{
+    display: block;
+    text-align: center;
     font-size: 20px;
   }
   
@@ -37,7 +47,7 @@
     color: orange;
   }
     </style>
-    <!--Estilo valoración-->
+    <!--FIN Estilo valoración-->
 
 
 <!-- Modal Valoracion -->
@@ -45,10 +55,11 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Valorar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" class="title-valorar">Valorar</h5>
+       
       </div>
       <div class="modal-body">
+        <!-- Estrellas -->
         <form id="form">
         <p class="clasificacion">
         <input id="radio1" type="radio" name="estrellas" value="5"><!--
@@ -63,7 +74,7 @@
         --><label for="radio5">★</label>
         </p>
         </form>
-
+      <!-- Estrellas -->
         <p>Comentario:</p>
         <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
       </div>
