@@ -41,7 +41,9 @@ header{
 }
 
 .menu_sup_item:hover a{
-   font-weight: bold;
+  text-decoration: none; 
+  font-weight: bold;
+   color: #000;
 }
 
 .login i{
@@ -52,8 +54,31 @@ header{
 
 main{
     min-height: 400px;
-    /*background-color: #d0d0d0;*/
+    background-color: rgb(255, 255, 255);
 }
+
+/*Inicio iconos carrusel*/
+
+.icon-container{
+  right:5% !important;
+  left: 5% !important;
+
+
+}
+.icon-add{
+  float: left;
+  color: #F1C40F;
+  font-size: 30px;
+}
+
+.icon-like{
+  float:right;
+  color:#F1C40F;
+  font-size: 30px;
+
+}
+
+/*Fin iconos carrusel*/
 /* Inicio Estilo buscador*/
 
 .searchbar{
@@ -79,13 +104,13 @@ main{
   .searchbar:hover > .search_input{
   padding: 0 10px;
   width: 450px;
-  caret-color:red;
+  caret-color:#F1C40F;
   transition: width 0.4s linear;
   }
 
   .searchbar:hover > .search_icon{
   background: white;
-  color: #e74c3c;
+  color: #F1C40F;
   }
 
   .search_icon{
@@ -96,14 +121,17 @@ main{
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color:white;
+  color:#F1C40F;
   text-decoration:none;
+  }
+
+  .buscador{
+    float:left;
+    padding: 10px 10px;
   }
 /* Fin Estilo buscador*/
 
-.buscador{
-  float:left;
-}
+
 .card{
     border:0;
     background: #fff;
@@ -114,8 +142,16 @@ main{
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.derecha{
+.card-button-left{
+  float:left;
+  background-color:#F1C40F !important;
+  border-color:#F1C40F !important;
+}
+
+.card-button-right{
   float:right;
+  background-color:#F1C40F !important;
+  border-color:#F1C40F !important;
 }
 
 .vendidos_contenedor{
