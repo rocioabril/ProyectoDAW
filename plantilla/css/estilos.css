@@ -2,6 +2,11 @@
 body{
     margin: 20px 0;
     border: 1px solid #ccc;
+   
+}
+
+.container{
+  max-width:2140px !important;
 }
 
 header{

@@ -17,9 +17,9 @@
     </div>
     <div class="carousel-item">
       <a href="#"><img src="./img/series2.png" class="d-block w-100" alt="..."></a>
-      <div class="carousel-caption">
-        <a href="#"><i class="bi bi-journal-plus"></i></a>
-        <a href="#"><i class="bi bi-heart"></i></a>        
+      <div class="carousel-caption icon-container">
+        <a href="#"><i class="bi bi-journal-plus icon-add"></i></a>
+        <a href="#"><i class="bi bi-heart icon-like"></i></a>        
       </div>
     </div>
   </div>
