@@ -58,13 +58,13 @@
         </div>
     </section>
 
-    <section class="row novedades">
+    <section class="row series" id="series">
         <div class="col-12">
-            <h2>Novedades</h2>
+            <h2>Series</h2>
 
             <div class="vendidos_contenedor">
                 <!-- funcion grande y el archivo lo puedo ver en la carpeta funciones -->
-                <?php pintar(4, "card_novedades.php");?>
+                <?php pintar(4, "card_series.php");?>
 
             </div>
         </div>

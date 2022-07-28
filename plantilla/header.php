@@ -8,7 +8,7 @@
                 <a href="index.php">Inicio</a>
             </li>
             <li class="menu_sup_item">
-                <a href="">Series</a>
+                <a href="#series">Series</a>
             </li>
             <li class="menu_sup_item">
                 <a href="">Opiniones</a>
