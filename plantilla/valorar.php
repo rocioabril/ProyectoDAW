@@ -51,13 +51,13 @@
 
 
 <!-- Modal Valoracion -->
-<div class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" class="title-valorar">Valorar</h5>
-       
-      </div>
+<div id="modalValoracion" class="modal fade" data-bs-backdrop="static" tabindex="-1">
+<div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Valorar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
       <div class="modal-body">
         <!-- Estrellas -->
         <form id="form">
@@ -74,16 +74,16 @@
         --><label for="radio5">★</label>
         </p>
         </form>
-      <!-- Estrellas -->
+      <!-- Fin Estrellas -->
         <p>Comentario:</p>
         <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Guardar valoración</button>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <!-- Fin Modal Valoracion -->
