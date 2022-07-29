@@ -2,7 +2,7 @@
     <div class="col-2">
         <img class="logo" src="./img/logo.png" alt="logo" title="logo">
     </div>
-    <div class="col-8">
+    <div class="col-10">
         <ul class="menu_superior">
             <li class="menu_sup_item">
                 <a href="index.php">Inicio</a>
@@ -16,7 +16,8 @@
             <li class="menu_sup_item">
                 <?php
             if (isset($_SESSION["usuario"])) {
-                echo "<a href='logout.php'>logout</a>";
+                echo "<b>Hola, " . $_SESSION["usuario"] . "</b><br>";
+                echo "<a href='logout.php'>Logout</a>";
              }
              else{
                 ?>
@@ -30,14 +31,7 @@
             </li>
         </ul>
     </div>
-    <div class="col-2 login">
-        <i class="bi bi-person-workspace"></i>
-        
-        <?php if (isset($_SESSION["usuario"])) {
-            echo "<p>Hola, " . $_SESSION["usuario"] . "</p>";
-        }
-        ?>
-    </div>
+    
 </header>
 
 <?php include("login.php"); ?>
