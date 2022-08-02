@@ -51,6 +51,12 @@ header{
    color: #000;
 }
 
+.sesion{
+  display:flex;
+  margin:auto;
+}
+
+
 .login i{
     text-align: center;
     font-size: 75px;
